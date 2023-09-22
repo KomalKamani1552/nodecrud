@@ -146,8 +146,8 @@ db.mongoose
   });
 
   
-require("./routes/tutorial.routes")(app);
-
+// require("./routes/tutorial.routes")(app);
+require("./Routes/tutorial.routes")(app);
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
